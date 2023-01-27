@@ -1,0 +1,21 @@
+$areacolor: rgb(240, 241, 191);
+$textcolor: rgb(140, 17, 36);
+.output {
+    margin:0 auto;
+}
+
+.textarea {
+    display: block;
+    width: 800px;
+    height: 200px;
+    margin: 10px auto 10px;
+    resize:auto;
+    padding: 10px;
+    overflow-wrap: break-word;
+    border-width: 1.5px;
+    border-style: solid;
+    border-color: rgb(120, 18, 4);
+    background-color: $areacolor;
+    color: $textcolor;
+    font-size: 20px;
+}
